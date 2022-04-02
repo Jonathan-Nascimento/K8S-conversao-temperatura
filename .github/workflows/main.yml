@@ -28,7 +28,7 @@ jobs:
           push: true
           tags: |
             jonathanlock/conversao-temperatura:latest
-            jonathanlock/conversao-temperatura:${{ github.run_number }}
+            jonathanlock/conversao-temperatura:${{github.run_number}}
             
   CD:
     needs:  [CI]
